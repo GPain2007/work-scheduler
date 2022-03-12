@@ -25,26 +25,82 @@
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+
+      <p class="lead"></p>
+      <div id="currentDay">Day</div>
     </header>
+    <section class="text-center" id="notify">
+      Something Added to Scheduler
+    </section>
     <div class="container">
       <!-- Timeblocks go here -->
-      <main class="row timeblock">
-        <div>
-          <div>
-            <h4 class="hour">6am</h4>
-            <ul>
-              <li class="textarea" id="textarea">add item to schedules</li>
-            </ul>
-          </div>
-        </div>
-      </main>
+      <div id="6" class="row d-flex time-block">
+        <div id="col2-div" class="col-md-2 hour">6am</div>
+        <textarea id="txta" class="description col-8"></textarea>
+        <button id="btn1" class="btn saveBtn col-2">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div id="7" class="row d-flex time-block">
+        <div class="col-md-2 hour">7am</div>
+        <textarea class="description col-8"></textarea>
+        <button class="btn saveBtn col-2">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div id="8" class="row d-flex time-block">
+        <div class="col-md-2 hour">8am</div>
+        <textarea class="description col-8"></textarea>
+        <button class="btn saveBtn col-2">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div id="9" class="row d-flex time-block">
+        <div class="col-md-2 hour">9am</div>
+        <textarea class="description col-8"></textarea>
+        <button class="btn saveBtn col-2">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div id="10" class="row d-flex time-block">
+        <div class="col-md-2 hour">10am</div>
+        <textarea class="description col-8"></textarea>
+        <button class="btn saveBtn col-2">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div id="11" class="row d-flex time-block">
+        <div class="col-md-2 hour">11am</div>
+        <textarea class="description col-8"></textarea>
+        <button class="btn saveBtn col-2">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div id="12" class="row d-flex time-block">
+        <div class="col-md-2 hour">12pm</div>
+        <textarea class="description col-8"></textarea>
+        <button class="btn saveBtn col-2">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div id="13" class="row d-flex time-block">
+        <div class="col-md-2 hour">1pm</div>
+        <textarea class="description col-8"></textarea>
+        <button class="btn saveBtn col-2">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div id="14" class="row d-flex time-block">
+        <div class="col-md-2 hour">2pm</div>
+        <textarea class="description col-8"></textarea>
+        <button class="btn saveBtn col-2">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <!-- <script src="https://momentjs.com/downloads/moment-with-locales.min.js"></script> -->
     <script src="./script.js"></script>
   </body>
 </html>
