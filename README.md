@@ -2,6 +2,8 @@
 
 https://gpain2007.github.io/work-scheduler/
 
+https://github.com/GPain2007/work-scheduler
+
 This Scheduler App allows the users to use this to organize there work day. It also shows their past present and future things they have entered by color code.
 
 <img width="1512" alt="Screen Shot 2022-03-13 at 8 10 15 PM" src="https://user-images.githubusercontent.com/97716889/158088612-1fba6d5a-511f-40d8-8278-a5e736a9a9e7.png">
